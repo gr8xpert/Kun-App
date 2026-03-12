@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ============================================= -->
+    <!-- SPACING SYSTEM (Based on 4dp grid)           -->
+    <!-- ============================================= -->
+
+    <!-- Base spacing values -->
+    <dimen name="spacing_xxs">2dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">12dp</dimen>
+    <dimen name="spacing_default">16dp</dimen>
+    <dimen name="spacing_lg">20dp</dimen>
+    <dimen name="spacing_xl">24dp</dimen>
+    <dimen name="spacing_xxl">32dp</dimen>
+    <dimen name="spacing_xxxl">48dp</dimen>
+
+    <!-- ============================================= -->
+    <!-- CORNER RADIUS                                -->
+    <!-- ============================================= -->
+
+    <dimen name="radius_xs">4dp</dimen>
+    <dimen name="radius_sm">8dp</dimen>
+    <dimen name="radius_md">12dp</dimen>
+    <dimen name="radius_default">16dp</dimen>
+    <dimen name="radius_lg">20dp</dimen>
+    <dimen name="radius_xl">24dp</dimen>
+    <dimen name="radius_xxl">32dp</dimen>
+    <!-- Note: For fully round corners, use shapeAppearance with cornerSize="50%" in styles -->
+
+    <!-- ============================================= -->
+    <!-- ICON SIZES                                   -->
+    <!-- ============================================= -->
+
+    <dimen name="icon_xs">16dp</dimen>
+    <dimen name="icon_sm">20dp</dimen>
+    <dimen name="icon_default">24dp</dimen>
+    <dimen name="icon_md">32dp</dimen>
+    <dimen name="icon_lg">40dp</dimen>
+    <dimen name="icon_xl">48dp</dimen>
+    <dimen name="icon_xxl">64dp</dimen>
+    <dimen name="icon_hero">100dp</dimen>
+
+    <!-- ============================================= -->
+    <!-- AVATAR SIZES                                 -->
+    <!-- ============================================= -->
+
+    <dimen name="avatar_sm">32dp</dimen>
+    <dimen name="avatar_md">40dp</dimen>
+    <dimen name="avatar_default">48dp</dimen>
+    <dimen name="avatar_lg">64dp</dimen>
+    <dimen name="avatar_xl">88dp</dimen>
+    <dimen name="avatar_profile">88dp</dimen>
+
+    <!-- ============================================= -->
+    <!-- CARD DIMENSIONS                              -->
+    <!-- ============================================= -->
+
+    <dimen name="card_elevation_default">2dp</dimen>
+    <dimen name="card_elevation_raised">4dp</dimen>
+    <dimen name="card_elevation_high">6dp</dimen>
+    <dimen name="card_elevation_hero">8dp</dimen>
+
+    <dimen name="card_width_course">220dp</dimen>
+    <dimen name="card_width_book">160dp</dimen>
+    <dimen name="card_width_quick_action">100dp</dimen>
+
+    <dimen name="card_height_course">160dp</dimen>
+    <dimen name="card_height_book">200dp</dimen>
+
+    <!-- ============================================= -->
+    <!-- BUTTON DIMENSIONS                            -->
+    <!-- ============================================= -->
+
+    <dimen name="button_height_sm">36dp</dimen>
+    <dimen name="button_height_default">48dp</dimen>
+    <dimen name="button_height_lg">56dp</dimen>
+
+    <dimen name="fab_size_default">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="fab_edit_profile">32dp</dimen>
+
+    <!-- Minimum touch target (accessibility) -->
+    <dimen name="touch_target_min">48dp</dimen>
+
+    <!-- ============================================= -->
+    <!-- TEXT INPUT                                   -->
+    <!-- ============================================= -->
+
+    <dimen name="text_input_corner_radius">12dp</dimen>
+    <dimen name="search_bar_corner_radius">24dp</dimen>
+
+    <!-- ============================================= -->
+    <!-- TOOLBAR & NAV                                -->
+    <!-- ============================================= -->
+
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="bottom_nav_height">80dp</dimen>
+    <dimen name="bottom_padding_with_nav">100dp</dimen>
+
+    <!-- ============================================= -->
+    <!-- DIVIDER                                      -->
+    <!-- ============================================= -->
+
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="accent_bar_width">4dp</dimen>
+    <dimen name="accent_bar_height">20dp</dimen>
+
+    <!-- ============================================= -->
+    <!-- TEXT SIZES (use sp for scalability)          -->
+    <!-- ============================================= -->
+
+    <dimen name="text_size_xs">11sp</dimen>
+    <dimen name="text_size_sm">12sp</dimen>
+    <dimen name="text_size_caption">13sp</dimen>
+    <dimen name="text_size_body">14sp</dimen>
+    <dimen name="text_size_subtitle">16sp</dimen>
+    <dimen name="text_size_title">18sp</dimen>
+    <dimen name="text_size_headline">20sp</dimen>
+    <dimen name="text_size_display">24sp</dimen>
+    <dimen name="text_size_display_lg">28sp</dimen>
+
+    <!-- ============================================= -->
+    <!-- LINE HEIGHT                                  -->
+    <!-- ============================================= -->
+
+    <dimen name="line_height_body">20sp</dimen>
+    <dimen name="line_height_title">24sp</dimen>
+
+    <!-- ============================================= -->
+    <!-- PROGRESS INDICATOR                           -->
+    <!-- ============================================= -->
+
+    <dimen name="progress_bar_height">4dp</dimen>
+    <dimen name="progress_indicator_size">48dp</dimen>
+
+</resources>

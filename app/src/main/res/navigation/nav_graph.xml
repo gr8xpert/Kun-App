@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <!-- Default animations for all navigation actions -->
+    <action
+        android:id="@+id/action_default"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <!-- Global action to navigate to home from anywhere -->
+    <action
+        android:id="@+id/action_global_home"
+        app:destination="@id/homeFragment"
+        app:popUpTo="@id/nav_graph"
+        app:popUpToInclusive="false"
+        app:launchSingleTop="true" />
+
+    <!-- Home Fragment (Start Destination) -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.kunworld.ui.home.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_courses"
+            app:destination="@id/coursesFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_home_to_consultancy"
+            app:destination="@id/consultancyFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_home_to_books"
+            app:destination="@id/booksFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_home_to_videos"
+            app:destination="@id/videosFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_home_to_istikhara"
+            app:destination="@id/istikharaFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_home_to_queries"
+            app:destination="@id/queriesFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_home_to_courseDetail"
+            app:destination="@id/courseDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_home_to_bookReader"
+            app:destination="@id/bookReaderFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_home_to_consultantDetail"
+            app:destination="@id/consultantDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_home_to_consultancyDetail"
+            app:destination="@id/consultancyDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_home_to_login"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <!-- Search Fragment -->
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.kunworld.ui.search.SearchFragment"
+        android:label="@string/nav_search"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_search_to_courseDetail"
+            app:destination="@id/courseDetailFragment" />
+        <action
+            android:id="@+id/action_search_to_bookReader"
+            app:destination="@id/bookReaderFragment" />
+        <action
+            android:id="@+id/action_search_to_consultantDetail"
+            app:destination="@id/consultantDetailFragment" />
+        <action
+            android:id="@+id/action_search_to_consultancyDetail"
+            app:destination="@id/consultancyDetailFragment" />
+    </fragment>
+
+    <!-- Profile Fragment -->
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.kunworld.ui.profile.ProfileFragment"
+        android:label="@string/nav_profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profile_to_settings"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_profile_to_login"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_profile_to_bookmarks"
+            app:destination="@id/bookmarksFragment" />
+    </fragment>
+
+    <!-- Login Fragment -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.kunworld.ui.auth.LoginFragment"
+        android:label="@string/login_title"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_login_to_signup"
+            app:destination="@id/signupFragment" />
+        <action
+            android:id="@+id/action_login_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <!-- Signup Fragment -->
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.example.kunworld.ui.auth.SignupFragment"
+        android:label="@string/signup_title"
+        tools:layout="@layout/fragment_signup">
+        <action
+            android:id="@+id/action_signup_to_login"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_signup_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <!-- Activity Fragment -->
+    <fragment
+        android:id="@+id/activityFragment"
+        android:name="com.example.kunworld.ui.activity.ActivityFragment"
+        android:label="@string/nav_activity"
+        tools:layout="@layout/fragment_activity">
+        <action
+            android:id="@+id/action_activity_to_bookReader"
+            app:destination="@id/bookReaderFragment" />
+        <action
+            android:id="@+id/action_activity_to_courseDetail"
+            app:destination="@id/courseDetailFragment" />
+    </fragment>
+
+    <!-- AI Chat Fragment -->
+    <fragment
+        android:id="@+id/aiChatFragment"
+        android:name="com.example.kunworld.ui.chat.AIChatFragment"
+        android:label="@string/ai_chat_title"
+        tools:layout="@layout/fragment_ai_chat">
+    </fragment>
+
+    <!-- Courses Fragment -->
+    <fragment
+        android:id="@+id/coursesFragment"
+        android:name="com.example.kunworld.ui.courses.CoursesFragment"
+        android:label="@string/courses"
+        tools:layout="@layout/fragment_courses">
+        <action
+            android:id="@+id/action_courses_to_courseDetail"
+            app:destination="@id/courseDetailFragment" />
+    </fragment>
+
+    <!-- Course Detail Fragment -->
+    <fragment
+        android:id="@+id/courseDetailFragment"
+        android:name="com.example.kunworld.ui.courses.CourseDetailFragment"
+        android:label="Course Detail"
+        tools:layout="@layout/fragment_course_detail">
+        <argument
+            android:name="courseId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_courseDetail_to_contentReader"
+            app:destination="@id/contentReaderFragment" />
+    </fragment>
+
+    <!-- Consultancy Fragment -->
+    <fragment
+        android:id="@+id/consultancyFragment"
+        android:name="com.example.kunworld.ui.consultancy.ConsultancyFragment"
+        android:label="@string/consultancy"
+        tools:layout="@layout/fragment_consultancy">
+        <action
+            android:id="@+id/action_consultancy_to_consultantDetail"
+            app:destination="@id/consultantDetailFragment" />
+        <action
+            android:id="@+id/action_consultancy_to_detail"
+            app:destination="@id/consultancyDetailFragment" />
+    </fragment>
+
+    <!-- Consultancy Detail Fragment -->
+    <fragment
+        android:id="@+id/consultancyDetailFragment"
+        android:name="com.example.kunworld.ui.consultancy.ConsultancyDetailFragment"
+        android:label="Service Detail"
+        tools:layout="@layout/fragment_consultancy_detail">
+        <argument
+            android:name="serviceId"
+            app:argType="string" />
+    </fragment>
+
+    <!-- Consultant Detail Fragment -->
+    <fragment
+        android:id="@+id/consultantDetailFragment"
+        android:name="com.example.kunworld.ui.consultancy.ConsultantDetailFragment"
+        android:label="Consultant Detail"
+        tools:layout="@layout/fragment_consultant_detail">
+        <argument
+            android:name="consultantId"
+            app:argType="string" />
+    </fragment>
+
+    <!-- Books Fragment -->
+    <fragment
+        android:id="@+id/booksFragment"
+        android:name="com.example.kunworld.ui.books.BooksFragment"
+        android:label="@string/books"
+        tools:layout="@layout/fragment_books">
+        <action
+            android:id="@+id/action_books_to_bookReader"
+            app:destination="@id/bookReaderFragment" />
+    </fragment>
+
+    <!-- Book Reader Fragment -->
+    <fragment
+        android:id="@+id/bookReaderFragment"
+        android:name="com.example.kunworld.ui.reader.BookReaderFragment"
+        android:label="Book Reader"
+        tools:layout="@layout/fragment_book_reader">
+        <argument
+            android:name="bookId"
+            app:argType="string" />
+        <argument
+            android:name="chapterId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+    <!-- Content Reader Fragment (Generic for courses/chapters) -->
+    <fragment
+        android:id="@+id/contentReaderFragment"
+        android:name="com.example.kunworld.ui.reader.ContentReaderFragment"
+        android:label="Content Reader"
+        tools:layout="@layout/fragment_content_reader">
+        <argument
+            android:name="contentId"
+            app:argType="string" />
+        <argument
+            android:name="contentType"
+            app:argType="string" />
+    </fragment>
+
+    <!-- Videos Fragment -->
+    <fragment
+        android:id="@+id/videosFragment"
+        android:name="com.example.kunworld.ui.videos.VideosFragment"
+        android:label="@string/videos"
+        tools:layout="@layout/fragment_videos">
+    </fragment>
+
+    <!-- Istikhara Fragment (with ViewPager2 for tabs) -->
+    <fragment
+        android:id="@+id/istikharaFragment"
+        android:name="com.example.kunworld.ui.istikhara.IstikharaFragment"
+        android:label="@string/istikhara"
+        tools:layout="@layout/fragment_istikhara">
+    </fragment>
+
+    <!-- Queries Fragment -->
+    <fragment
+        android:id="@+id/queriesFragment"
+        android:name="com.example.kunworld.ui.queries.QueriesFragment"
+        android:label="@string/queries"
+        tools:layout="@layout/fragment_queries">
+    </fragment>
+
+    <!-- Settings Fragment -->
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.kunworld.ui.settings.SettingsFragment"
+        android:label="@string/profile_settings"
+        tools:layout="@layout/fragment_settings">
+    </fragment>
+
+    <!-- Bookmarks Fragment -->
+    <fragment
+        android:id="@+id/bookmarksFragment"
+        android:name="com.example.kunworld.ui.bookmarks.BookmarksFragment"
+        android:label="@string/bookmarks"
+        tools:layout="@layout/fragment_bookmarks">
+        <action
+            android:id="@+id/action_bookmarks_to_courseDetail"
+            app:destination="@id/courseDetailFragment" />
+        <action
+            android:id="@+id/action_bookmarks_to_bookReader"
+            app:destination="@id/bookReaderFragment" />
+    </fragment>
+
+</navigation>

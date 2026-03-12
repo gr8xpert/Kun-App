@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.KunWorld.HeadlineMedium"
+            tools:text="Personality Match Calculator" />
+
+        <!-- Featured Image -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ivFeaturedImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/istikhara" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Instructions Card with Toggle -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardInstructions"
+            style="@style/Widget.KunWorld.CardView.Flat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Toggle Header -->
+                <LinearLayout
+                    android:id="@+id/instructionsHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/istikhara_instruction_heading"
+                        android:textAppearance="@style/TextAppearance.KunWorld.TitleSmall"
+                        android:textColor="@color/primary" />
+
+                    <ImageView
+                        android:id="@+id/ivExpandIcon"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_expand_more"
+                        android:contentDescription="Toggle instructions" />
+                </LinearLayout>
+
+                <!-- Collapsible Instructions Content -->
+                <LinearLayout
+                    android:id="@+id/instructionsContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <!-- English Instructions -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/istikhara_instruction_1"
+                            android:textAppearance="@style/TextAppearance.KunWorld.BodySmall"
+                            android:drawablePadding="8dp"
+                            app:drawableStartCompat="@drawable/ic_bullet_point" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="@string/istikhara_instruction_2"
+                            android:textAppearance="@style/TextAppearance.KunWorld.BodySmall"
+                            android:drawablePadding="8dp"
+                            app:drawableStartCompat="@drawable/ic_bullet_point" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="@string/istikhara_instruction_3"
+                            android:textAppearance="@style/TextAppearance.KunWorld.BodySmall"
+                            android:drawablePadding="8dp"
+                            app:drawableStartCompat="@drawable/ic_bullet_point" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="@string/istikhara_instruction_4"
+                            android:textAppearance="@style/TextAppearance.KunWorld.BodySmall"
+                            android:drawablePadding="8dp"
+                            app:drawableStartCompat="@drawable/ic_bullet_point" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="@string/istikhara_instruction_5"
+                            android:textAppearance="@style/TextAppearance.KunWorld.BodySmall"
+                            android:drawablePadding="8dp"
+                            app:drawableStartCompat="@drawable/ic_bullet_point" />
+                    </LinearLayout>
+
+                    <!-- Urdu Instructions -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="16dp"
+                        android:layoutDirection="rtl">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/istikhara_instruction_1_ur"
+                            android:textAppearance="@style/TextAppearance.KunWorld.Urdu"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="@string/istikhara_instruction_2_ur"
+                            android:textAppearance="@style/TextAppearance.KunWorld.Urdu"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="@string/istikhara_instruction_3_ur"
+                            android:textAppearance="@style/TextAppearance.KunWorld.Urdu"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="@string/istikhara_instruction_4_ur"
+                            android:textAppearance="@style/TextAppearance.KunWorld.Urdu"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="@string/istikhara_instruction_5_ur"
+                            android:textAppearance="@style/TextAppearance.KunWorld.Urdu"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Input Fields Container - will be populated dynamically -->
+        <LinearLayout
+            android:id="@+id/inputContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp" />
+
+        <!-- Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="24dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnCalculate"
+                style="@style/Widget.KunWorld.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:text="@string/btn_calculate" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnReset"
+                style="@style/Widget.KunWorld.Button.Outlined"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:text="@string/btn_reset" />
+        </LinearLayout>
+
+        <!-- Result Container - hidden by default -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="@color/istikhara_result_bg"
+            app:cardCornerRadius="16dp"
+            tools:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="24dp">
+
+                <TextView
+                    android:id="@+id/tvResultTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.KunWorld.TitleMedium"
+                    android:textColor="@color/istikhara_result_text"
+                    tools:text="Personality Match Result" />
+
+                <TextView
+                    android:id="@+id/tvResultMain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:textAppearance="@style/TextAppearance.KunWorld.IstikharaResultLarge"
+                    tools:text="Friend" />
+
+                <TextView
+                    android:id="@+id/tvResultDetails"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:textAppearance="@style/TextAppearance.KunWorld.BodyMedium"
+                    android:textColor="@color/istikhara_result_text"
+                    android:gravity="center"
+                    tools:text="Total A: 150 | Total B: 200" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Spacer -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

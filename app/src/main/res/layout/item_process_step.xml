@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="top"
+    android:paddingVertical="8dp">
+
+    <!-- Step Number with Connector Line -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Step Number Circle -->
+        <TextView
+            android:id="@+id/tvStepNumber"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/bg_step_number"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.KunWorld.LabelLarge"
+            android:textColor="@color/on_secondary"
+            android:textStyle="bold"
+            tools:text="1" />
+
+        <!-- Connector Line (hidden for last item) -->
+        <View
+            android:id="@+id/viewConnector"
+            android:layout_width="2dp"
+            android:layout_height="24dp"
+            android:background="@color/secondary_light"
+            android:layout_marginTop="4dp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <!-- Step Content -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="1dp"
+        app:cardBackgroundColor="@color/secondary_container">
+
+        <TextView
+            android:id="@+id/tvStepText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="14dp"
+            android:textAppearance="@style/TextAppearance.KunWorld.BodyMedium"
+            android:textColor="@color/on_secondary_container"
+            tools:text="Initial Consultation" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

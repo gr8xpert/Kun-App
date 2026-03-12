@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    app:strokeWidth="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp">
+
+        <!-- Avatar placeholder -->
+        <View
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@drawable/shimmer_circle" />
+
+        <!-- Name placeholder -->
+        <View
+            android:layout_width="100dp"
+            android:layout_height="14dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/shimmer_background" />
+
+        <!-- Specialty placeholder -->
+        <View
+            android:layout_width="80dp"
+            android:layout_height="10dp"
+            android:layout_marginTop="6dp"
+            android:background="@color/shimmer_background" />
+
+        <!-- Rating placeholder -->
+        <View
+            android:layout_width="60dp"
+            android:layout_height="10dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/shimmer_background" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

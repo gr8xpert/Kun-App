@@ -1,0 +1,430 @@
+<resources>
+    <string name="app_name">KunWorld</string>
+    <string name="hyperlink">Book Appointment</string>
+    <string name="appointment_url">https://farooqebrahim.com/appointment</string>
+    <string name="youtube_channel">https://www.youtube.com/@sagheerahmed5085</string>
+    <string name="api_url">https://farooqebrahim.com/dbconnect.php</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_activity">Activity</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_ai_chat">AI Chat</string>
+    <string name="nav_message">Message</string>
+    <string name="nav_user">User</string>
+
+    <!-- Home Screen -->
+    <string name="greeting_morning">Good Morning</string>
+    <string name="greeting_afternoon">Good Afternoon</string>
+    <string name="greeting_evening">Good Evening</string>
+    <string name="greeting_default">Welcome</string>
+    <string name="greeting_subtitle">What would you like to learn today?</string>
+    <string name="featured_courses">Featured Courses</string>
+    <string name="popular_consultants">Top Consultancies</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="see_all">See All</string>
+
+    <!-- Categories -->
+    <string name="category_all">All</string>
+    <string name="category_courses">Courses</string>
+    <string name="category_books">Books</string>
+    <string name="category_consultancy">Consultancy</string>
+    <string name="category_videos">Videos</string>
+    <string name="category_istikhara">Istikhara</string>
+
+    <!-- Features -->
+    <string name="videos">Videos</string>
+    <string name="consultancy">Consultancy</string>
+    <string name="courses">Courses</string>
+    <string name="books">Books</string>
+    <string name="queries">Queries</string>
+    <string name="istikhara">Istikhara</string>
+
+    <!-- Consultancy Types -->
+    <string name="education_consultancy">Education Consultancy</string>
+    <string name="business_consultancy">Business Consultancy</string>
+    <string name="health_consultancy">Health Consultancy</string>
+    <string name="family_counseling">Family Counseling</string>
+    <string name="personality_development">Personality Development</string>
+
+    <!-- Course Details -->
+    <string name="course_duration">Duration</string>
+    <string name="course_chapters">Chapters</string>
+    <string name="course_rating">Rating</string>
+    <string name="enroll_now">Enroll Now</string>
+    <string name="continue_learning">Continue Learning</string>
+    <string name="start_course">Start Course</string>
+
+    <!-- Form Labels -->
+    <string name="query_form_title">Query Form</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_father_name">Father Name</string>
+    <string name="hint_mother_name">Mother Name</string>
+    <string name="hint_age">Age</string>
+    <string name="hint_education">Education</string>
+    <string name="hint_hobbies">Hobbies</string>
+    <string name="hint_why_join">Why are you joining this?</string>
+    <string name="hint_personality">Write one paragraph on your own personality</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_return">Return</string>
+    <string name="btn_calculate">Calculate</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_retry">Retry</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_send">Send</string>
+
+    <!-- Search -->
+    <string name="search_hint">Search courses, books, consultants...</string>
+    <string name="search_no_results">No results found</string>
+    <string name="recent_searches">Recent Searches</string>
+    <string name="clear_history">Clear History</string>
+
+    <!-- Profile -->
+    <string name="profile_settings">Settings</string>
+    <string name="profile_bookmarks">Bookmarks</string>
+    <string name="profile_progress">Reading Progress</string>
+    <string name="profile_appearance">Appearance</string>
+    <string name="profile_notifications">Notifications</string>
+    <string name="profile_about">About</string>
+    <string name="profile_version">Version %1$s</string>
+    <string name="profile_in_progress">In Progress</string>
+    <string name="profile_completed">Completed</string>
+    <string name="profile_section_content">Content</string>
+    <string name="profile_section_settings">Settings</string>
+    <string name="guest_user">Guest User</string>
+
+    <!-- Authentication -->
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to continue your learning journey</string>
+    <string name="login_no_account">Don\'t have an account?</string>
+    <string name="signup_title">Create Account</string>
+    <string name="signup_subtitle">Join KunWorld and start your journey</string>
+    <string name="signup_have_account">Already have an account?</string>
+
+    <!-- Auth Form Labels -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_phone_optional">Phone (Optional)</string>
+    <string name="hint_name_helper">Supports English and Urdu names</string>
+    <string name="hint_password_helper">At least 6 characters</string>
+
+    <!-- Auth Buttons -->
+    <string name="btn_login">Sign In</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="btn_create_account">Create Account</string>
+    <string name="btn_continue_as_guest">Continue as Guest</string>
+    <string name="btn_login_to_save">Sign in to save progress</string>
+    <string name="btn_logout">Sign Out</string>
+
+    <!-- Auth Errors -->
+    <string name="error_email_required">Email is required</string>
+    <string name="error_email_invalid">Please enter a valid email address</string>
+    <string name="error_password_required">Password is required</string>
+    <string name="error_password_short">Password must be at least 6 characters</string>
+    <string name="error_confirm_password_required">Please confirm your password</string>
+    <string name="error_passwords_dont_match">Passwords do not match</string>
+
+    <!-- Logout -->
+    <string name="logout_title">Sign Out</string>
+    <string name="logout_message">Are you sure you want to sign out? Your progress will be saved.</string>
+    <string name="logout_success">Signed out successfully</string>
+
+    <!-- About -->
+    <string name="about_message">KunWorld v%1$s\n\nA comprehensive learning app for personal development, education, and spiritual growth.\n\nDeveloped with care.</string>
+
+    <!-- General -->
+    <string name="feature_coming_soon">Coming soon!</string>
+
+    <!-- Consultancy -->
+    <string name="consultancy_header">Expert Consultancy Services</string>
+    <string name="consultancy_subtitle">Get personalized guidance from experienced consultants in various life domains</string>
+    <string name="consultancy_cta_title">Ready to Transform Your Life?</string>
+    <string name="consultancy_cta_subtitle">Schedule a free consultation today</string>
+    <string name="btn_learn_more">Learn More</string>
+    <string name="btn_book_appointment">Book Appointment</string>
+
+    <!-- AI Chat -->
+    <string name="ai_chat_title">KunWorld Assistant</string>
+    <string name="ai_chat_hint">Ask me anything about the app...</string>
+    <string name="ai_chat_welcome">Hello! I\'m your KunWorld Assistant. I can help you with:\n\n• Courses offered in the app\n• Consultancy services\n• Books available\n• Istikhara guidance\n• App features and navigation\n\nHow can I help you today?</string>
+    <string name="ai_chat_thinking">Thinking...</string>
+    <string name="ai_chat_error">Sorry, I couldn\'t process that. Please try again.</string>
+    <string name="ai_chat_suggestion_1">What courses are available?</string>
+    <string name="ai_chat_suggestion_2">Tell me about consultancy services</string>
+    <string name="ai_chat_suggestion_3">How does Istikhara work?</string>
+    <string name="ai_chat_api_url">https://api.openai.com/v1/chat/completions</string>
+
+    <!-- Istikhara Tab Labels -->
+    <string name="istikhara_personality">Personality Match</string>
+    <string name="istikhara_marriage">Marriage Match</string>
+    <string name="istikhara_child">Child Name</string>
+    <string name="istikhara_magic">Magic</string>
+    <string name="istikhara_lost">Lost Item</string>
+
+    <!-- Istikhara Form Labels -->
+    <string name="istikhara_person_a">Person A Name</string>
+    <string name="istikhara_person_a_mother">Person A Mother\'s Name</string>
+    <string name="istikhara_person_b">Person B Name</string>
+    <string name="istikhara_person_b_mother">Person B Mother\'s Name</string>
+    <string name="istikhara_person_name">Person\'s Name</string>
+    <string name="istikhara_mother_name">Mother\'s Name</string>
+    <string name="istikhara_father_name">Father\'s Name</string>
+    <string name="istikhara_child_name">Child Name</string>
+    <string name="istikhara_placeholder_name">e.g. saghir</string>
+
+    <!-- Istikhara Instructions (English) -->
+    <string name="istikhara_instruction_heading">Instructions on how to use</string>
+    <string name="istikhara_instruction_1">Write only 1 name per input field</string>
+    <string name="istikhara_instruction_2">Do not enter full name, just person\'s name needed</string>
+    <string name="istikhara_instruction_3">Type your name in English and then select correct spell from dropdown</string>
+    <string name="istikhara_instruction_4">You can also type directly in Urdu</string>
+    <string name="istikhara_instruction_5">Find your answer below calculate button</string>
+
+    <!-- Istikhara Instructions (Urdu) -->
+    <string name="istikhara_instruction_1_ur">• ہر ان پٹ فیلڈ میں صرف ایک نام لکھیں</string>
+    <string name="istikhara_instruction_2_ur">• پورا نام درج نہ کریں، صرف فرد کا نام لکھیں</string>
+    <string name="istikhara_instruction_3_ur">• اپنا نام انگریزی میں ٹائپ کریں اور پھر ڈراپ ڈاؤن سے درست ہجے منتخب کریں</string>
+    <string name="istikhara_instruction_4_ur">• آپ اردو میں بھی ٹائپ کر سکتے ہیں</string>
+    <string name="istikhara_instruction_5_ur">• کیلکولیٹ بٹن کے نیچے اپنا جواب تلاش کریں</string>
+
+    <!-- Istikhara Calculator Titles -->
+    <string name="istikhara_personality_title">Personality Match Calculator</string>
+    <string name="istikhara_marriage_title">Marriage Match Calculator</string>
+    <string name="istikhara_child_title">Child Name Calculator</string>
+    <string name="istikhara_magic_title">Magic Calculator</string>
+    <string name="istikhara_lost_title">Lost Item Finder</string>
+
+    <!-- Istikhara Results Headers -->
+    <string name="result_personality_match">Personality Match Result</string>
+    <string name="result_marriage_match">Your marriage match</string>
+    <string name="result_child_analysis">Child Name Analysis</string>
+    <string name="result_magic">Magic Result</string>
+    <string name="result_lost_item">Lost Item Result</string>
+    <string name="result_success_ratio">Success Ratio</string>
+    <string name="result_name_recommendation">Name Recommendation</string>
+    <string name="result_answer">Answer</string>
+
+    <!-- Personality Types -->
+    <string name="result_enemy">Enemy</string>
+    <string name="result_friend">Friend</string>
+    <string name="result_buniya">Buniya / Not Trusty</string>
+    <string name="result_business">Business / Both want profit</string>
+
+    <!-- Magic Results -->
+    <string name="result_yes">Yes</string>
+    <string name="result_no">No</string>
+
+    <!-- Lost Item Results -->
+    <string name="result_lost_1">In house or near to your reach. Insha Allah you will find it soon.</string>
+    <string name="result_lost_2">Misplaced at a different place. You will find it Insha Allah but after some time.</string>
+    <string name="result_lost_0">Not possible or difficult to find it.</string>
+
+    <!-- Marriage Status -->
+    <string name="marriage_good">Good</string>
+    <string name="marriage_not_good">Not Good</string>
+    <string name="marriage_average">Average</string>
+
+    <!-- Days of Week (Urdu) -->
+    <string name="day_sunday">اتوار</string>
+    <string name="day_monday">پیر</string>
+    <string name="day_tuesday">منگل</string>
+    <string name="day_wednesday">بدھ</string>
+    <string name="day_thursday">جمعرات</string>
+    <string name="day_friday">جمعہ</string>
+    <string name="day_saturday">ہفتہ</string>
+
+    <!-- Urdu Preview -->
+    <string name="urdu_preview">Urdu Preview</string>
+    <string name="loading_suggestions">Loading suggestions...</string>
+    <string name="no_suggestions">No suggestions available</string>
+
+    <!-- Error Messages -->
+    <string name="error_name_required">Name is required</string>
+    <string name="error_all_names_required">Please enter all names</string>
+    <string name="error_both_names_required">Please enter both names</string>
+    <string name="error_three_names_required">Please enter all three names</string>
+    <string name="error_four_names_required">Please enter all four names</string>
+    <string name="error_no_valid_letters">No valid Arabic/Urdu letters found</string>
+    <string name="error_network">Network error. Please try again.</string>
+    <string name="error_unknown">Something went wrong. Please try again.</string>
+    <string name="success_submitted">Query submitted successfully!</string>
+
+    <!-- Content Reader -->
+    <string name="reader_chapters">Chapters</string>
+    <string name="reader_font_size">Font Size</string>
+    <string name="reader_bookmark">Bookmark</string>
+    <string name="reader_bookmarked">Page Bookmarked</string>
+    <string name="reader_night_mode">Night Mode</string>
+    <string name="reader_progress">%1$d%% Complete</string>
+
+    <!-- Empty States -->
+    <string name="empty_courses">No courses available</string>
+    <string name="empty_books">No books available</string>
+    <string name="empty_consultants">No consultants available</string>
+    <string name="empty_bookmarks">No bookmarks yet</string>
+    <string name="empty_activity">No recent activity</string>
+    <string name="empty_search">Search for courses, books, and more</string>
+
+    <!-- Loading States -->
+    <string name="loading">Loading...</string>
+    <string name="loading_courses">Loading courses...</string>
+    <string name="loading_content">Loading content...</string>
+    <string name="refreshing">Refreshing...</string>
+
+    <!-- Offline -->
+    <string name="offline_mode">Offline Mode</string>
+    <string name="offline_message">You\'re offline. Some features may not be available.</string>
+    <string name="cached_content">Showing cached content</string>
+
+    <!-- Accessibility -->
+    <string name="cd_menu">Menu</string>
+    <string name="cd_search">Search</string>
+    <string name="cd_back">Go back</string>
+    <string name="cd_close">Close</string>
+    <string name="cd_ai_chat">Open AI Chat</string>
+    <string name="cd_play_video">Play video</string>
+    <string name="cd_rating">Rating: %1$.1f stars</string>
+    <string name="cd_course_image">Course image</string>
+    <string name="cd_consultant_image">Consultant photo</string>
+    <string name="cd_book_cover">Book cover</string>
+    <string name="cd_edit_profile_photo">Edit profile photo</string>
+    <string name="cd_camera">Camera</string>
+    <string name="cd_profile_photo">Profile photo</string>
+    <string name="cd_bookmarks_icon">Bookmarks</string>
+    <string name="cd_progress_icon">Reading progress</string>
+    <string name="cd_notifications_icon">Notifications</string>
+    <string name="cd_about_icon">About app</string>
+    <string name="cd_navigate_to">Navigate to %s</string>
+    <string name="cd_courses_icon">Courses section</string>
+    <string name="cd_hero_icon">Section icon</string>
+    <string name="cd_search_icon">Search icon</string>
+
+    <!-- Book Reader -->
+    <string name="loading_book">Loading book…</string>
+    <string name="error_loading_book">Unable to load this book</string>
+    <string name="retry">Retry</string>
+
+    <!-- Bookmarks -->
+    <string name="bookmark">Bookmark</string>
+    <string name="bookmark_added">Added to bookmarks</string>
+    <string name="bookmark_removed">Removed from bookmarks</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="no_bookmarks">No bookmarks yet</string>
+    <string name="no_bookmarks_desc">Your saved courses and books will appear here</string>
+    <string name="login_to_bookmark">Please login to save bookmarks</string>
+
+    <!-- Reading Progress -->
+    <string name="empty_activity_desc">Start reading books or courses to track your progress here</string>
+    <string name="reset_progress">Reset Progress</string>
+    <string name="reset_progress_title">Reset All Progress?</string>
+    <string name="reset_progress_message">This will delete all your reading progress. Your bookmarks will be preserved. This action cannot be undone.</string>
+    <string name="progress_reset_success">All progress has been reset</string>
+
+    <!-- Profile Photo -->
+    <string name="profile_photo">Profile Photo</string>
+    <string name="choose_photo">Choose Photo</string>
+    <string name="change_photo">Change Photo</string>
+    <string name="remove_photo">Remove Photo</string>
+    <string name="photo_updated">Profile photo updated</string>
+    <string name="photo_removed">Profile photo removed</string>
+    <string name="photo_update_failed">Failed to update photo</string>
+
+    <!-- Daily Quote Notifications -->
+    <string name="notification_channel_name">Daily Reflection</string>
+    <string name="notification_channel_description">Daily inspirational quotes to start your day</string>
+    <string name="notification_title">One Day One Reflection</string>
+    <string name="settings_daily_quotes">Daily Quotes</string>
+    <string name="settings_notification_time">Notification Time</string>
+    <string name="settings_notification_time_format">%d:%02d %s</string>
+    <string name="notification_permission_required">Please enable notifications to receive daily quotes</string>
+
+    <!-- Courses Screen -->
+    <string name="courses_hero_title">Master New Skills</string>
+    <string name="courses_hero_subtitle">%d Professional Courses Available</string>
+    <string name="courses_hero_description">Explore our comprehensive courses designed to help you develop personally and professionally. Each course includes structured modules, practical exercises, and expert guidance.</string>
+    <string name="courses_section_all">All Courses</string>
+    <string name="courses_count">%d Courses</string>
+
+    <!-- Search Screen -->
+    <string name="search_placeholder">Search courses, consultancy…</string>
+    <string name="search_empty_hint">Start typing to search courses and consultancy services</string>
+
+    <!-- Continue Reading Section -->
+    <string name="continue_reading">Continue Reading</string>
+    <string name="continue_where_left">Pick up where you left off</string>
+    <string name="progress_percent">%d%% complete</string>
+    <string name="last_read">Last read %s</string>
+    <string name="resume">Resume</string>
+
+    <!-- Search History -->
+    <string name="search_history">Recent Searches</string>
+    <string name="clear_search_history">Clear</string>
+    <string name="search_history_cleared">Search history cleared</string>
+
+    <!-- Share -->
+    <string name="share">Share</string>
+    <string name="share_course">Check out this course on KunWorld: %s</string>
+    <string name="share_book">Check out this book on KunWorld: %s</string>
+    <string name="share_quote">"%s" - Shared from KunWorld</string>
+    <string name="share_app">Download KunWorld app for personal development: https://play.google.com/store/apps/details?id=com.example.kunworld</string>
+
+    <!-- Reading Goals -->
+    <string name="reading_goals">Reading Goals</string>
+    <string name="daily_goal">Daily Goal</string>
+    <string name="weekly_goal">Weekly Goal</string>
+    <string name="minutes_per_day">%d min/day</string>
+    <string name="current_streak">Current Streak</string>
+    <string name="days_streak">%d days</string>
+    <string name="goal_achieved">Goal achieved!</string>
+    <string name="keep_going">Keep going! %d min left</string>
+    <string name="set_goal">Set Goal</string>
+    <string name="reading_stats">Reading Stats</string>
+    <string name="total_reading_time">Total reading time</string>
+    <string name="this_week">This week</string>
+    <string name="best_streak">Best streak</string>
+
+    <!-- Pull to Refresh -->
+    <string name="pull_to_refresh">Pull to refresh</string>
+    <string name="content_refreshed">Content refreshed</string>
+
+    <!-- Home Screen Enhancements -->
+    <string name="hero_title">Start Your Journey</string>
+    <string name="hero_subtitle">Discover courses, books &amp; consultancy</string>
+    <string name="explore_now">Explore Now</string>
+
+    <!-- Widget -->
+    <string name="quote_of_the_day">Quote of the Day</string>
+    <string name="widget_quote_description">Daily inspirational quote from KunWorld</string>
+    <string name="refresh">Refresh</string>
+
+    <!-- Notes and Highlights -->
+    <string name="notes">Notes</string>
+    <string name="highlights">Highlights</string>
+    <string name="add_note">Add Note</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="delete_note">Delete Note</string>
+    <string name="note_hint">Write your note here...</string>
+    <string name="note_saved">Note saved</string>
+    <string name="note_deleted">Note deleted</string>
+    <string name="no_notes">No notes yet</string>
+    <string name="no_notes_hint">Add notes while reading to remember key points</string>
+    <string name="highlight_color">Highlight Color</string>
+    <string name="page_label">Page %d</string>
+
+    <!-- Course Progress -->
+    <string name="course_progress">Course Progress</string>
+    <string name="modules_completed">%d of %d modules</string>
+    <string name="mark_complete">Mark Complete</string>
+    <string name="mark_incomplete">Mark Incomplete</string>
+    <string name="course_completed">Course completed!</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="course_completion_message">You have completed all modules in this course.</string>
+    <string name="in_progress">In Progress</string>
+    <string name="completed">Completed</string>
+    <string name="not_started">Not Started</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/poppins_bold_ttf</item>
+        <item>@font/poppins_semibold_ttf</item>
+        <item>@font/poppins_medium_ttf</item>
+        <item>@font/inter_regular_ttf</item>
+        <item>@font/inter_medium_ttf</item>
+    </array>
+</resources>

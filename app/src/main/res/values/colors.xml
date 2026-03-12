@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Lime Green - Refined -->
+    <color name="primary">#a0e306</color>
+    <color name="primary_dark">#7ab505</color>
+    <color name="primary_light">#c4ff4a</color>
+    <color name="primary_container">#e8ffc7</color>
+    <color name="primary_soft">#d4f59e</color>
+    <color name="on_primary">#1a2600</color>
+    <color name="on_primary_container">#2d4000</color>
+    <color name="text_on_primary">#1a2600</color>
+
+    <!-- Secondary Blue - Refined -->
+    <color name="secondary">#0050ef</color>
+    <color name="secondary_dark">#003db8</color>
+    <color name="secondary_light">#4d85ff</color>
+    <color name="secondary_container">#dce4ff</color>
+    <color name="secondary_soft">#e8eeff</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="on_secondary_container">#001a4d</color>
+
+    <!-- Tertiary - Warm Gold for Islamic elegance -->
+    <color name="tertiary">#D4AF37</color>
+    <color name="tertiary_light">#E8C862</color>
+    <color name="tertiary_container">#FFF8E1</color>
+    <color name="on_tertiary">#3D2E00</color>
+
+    <!-- Surface Colors - Warm undertones -->
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F8F9FA</color>
+    <color name="surface_container">#FAFBFC</color>
+    <color name="surface_container_high">#F1F3F4</color>
+    <color name="surface_container_low">#FCFCFD</color>
+    <color name="surface_warm">#FFFEF7</color>
+    <color name="on_surface">#1A1C1E</color>
+    <color name="on_surface_variant">#44474E</color>
+    <color name="background">#FAFBFC</color>
+    <color name="background_gradient_start">#FFFFFF</color>
+    <color name="background_gradient_end">#F0FFF0</color>
+    <color name="on_background">#1A1C1E</color>
+
+    <!-- Text Colors - Refined hierarchy -->
+    <color name="text_primary">#1A1C1E</color>
+    <color name="text_secondary">#5F6368</color>
+    <color name="text_tertiary">#80868B</color>
+    <color name="text_hint">#9AA0A6</color>
+    <color name="text_disabled">#BDC1C6</color>
+    <color name="text_on_dark">#FFFFFF</color>
+    <color name="text_on_dark_secondary">#E8EAED</color>
+
+    <!-- Accent Colors - Refined -->
+    <color name="accent">#FF6B6B</color>
+    <color name="accent_light">#FF8A80</color>
+    <color name="accent_coral">#FF7F7F</color>
+    <color name="star_yellow">#FFC107</color>
+    <color name="star_empty">#E0E0E0</color>
+
+    <!-- Gradient Colors for Cards -->
+    <color name="gradient_green_start">#a0e306</color>
+    <color name="gradient_green_end">#7ab505</color>
+    <color name="gradient_blue_start">#0050ef</color>
+    <color name="gradient_blue_end">#003db8</color>
+    <color name="gradient_gold_start">#D4AF37</color>
+    <color name="gradient_gold_end">#B8941E</color>
+    <color name="gradient_dark_start">#2D3436</color>
+    <color name="gradient_dark_end">#1A1C1E</color>
+
+    <!-- Quick Action Card Colors -->
+    <color name="quick_action_videos">#FF6B6B</color>
+    <color name="quick_action_consultancy">#0050ef</color>
+    <color name="quick_action_courses">#a0e306</color>
+    <color name="quick_action_books">#9C27B0</color>
+    <color name="quick_action_queries">#FF9800</color>
+    <color name="quick_action_istikhara">#D4AF37</color>
+
+    <!-- Error Colors -->
+    <color name="error">#B00020</color>
+    <color name="error_container">#FDEAEA</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="on_error_container">#410002</color>
+
+    <!-- Success Colors -->
+    <color name="success">#00C853</color>
+    <color name="success_container">#E8F5E9</color>
+
+    <!-- Warning Colors -->
+    <color name="warning">#FF9800</color>
+    <color name="warning_container">#FFF3E0</color>
+
+    <!-- Outline Colors -->
+    <color name="outline">#79747E</color>
+    <color name="outline_variant">#CAC4D0</color>
+
+    <!-- Card and Container Colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_elevated">#FFFFFF</color>
+    <color name="divider">#E0E0E0</color>
+
+    <!-- Bottom Navigation Colors -->
+    <color name="bottom_nav_background">#FFFFFF</color>
+    <color name="bottom_nav_selected">#a0e306</color>
+    <color name="bottom_nav_unselected">#757575</color>
+
+    <!-- Chip Colors -->
+    <color name="chip_background">#e8ffc7</color>
+    <color name="chip_background_selected">#a0e306</color>
+    <color name="chip_text">#5a8003</color>
+    <color name="chip_text_selected">#1a2600</color>
+
+    <!-- FAB Colors -->
+    <color name="fab_background">#0050ef</color>
+    <color name="fab_icon">#FFFFFF</color>
+
+    <!-- Istikhara Tab Colors -->
+    <color name="istikhara_tab_1">#F4CD86</color>
+    <color name="istikhara_tab_2">#F7B99C</color>
+    <color name="istikhara_tab_3">#D6959A</color>
+    <color name="istikhara_tab_4">#A27C8E</color>
+    <color name="istikhara_tab_5">#A58DB1</color>
+    <color name="istikhara_result_bg">#4E675D</color>
+    <color name="istikhara_result_text">#C9FFEB</color>
+    <color name="istikhara_answer">#FEDA6A</color>
+
+    <!-- Shimmer Colors -->
+    <color name="shimmer_background">#E0E0E0</color>
+    <color name="shimmer_highlight">#F5F5F5</color>
+
+    <!-- Highlight Colors for Notes -->
+    <color name="highlight_yellow">#FFF59D</color>
+    <color name="highlight_green">#A5D6A7</color>
+    <color name="highlight_blue">#90CAF9</color>
+    <color name="highlight_pink">#F48FB1</color>
+
+    <!-- Legacy colors (kept for compatibility) -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <!-- Base colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#EEEEEE</color>
+
+    <!-- Legacy Green Theme (kept for compatibility) -->
+    <color name="green">#388E3C</color>
+    <color name="green_dark">#1B5E20</color>
+    <color name="green_light">#81C784</color>
+    <color name="green_accent">#4CAF50</color>
+    <color name="circle">#DCEDC8</color>
+
+    <!-- ============================================= -->
+    <!-- DARK THEME COLORS (Material 3 Dark Palette)  -->
+    <!-- ============================================= -->
+
+    <!-- Primary Lime Green - Dark Theme -->
+    <color name="primary_dark_theme">#c4ff4a</color>
+    <color name="primary_dark_theme_variant">#a0e306</color>
+    <color name="primary_container_dark">#3d5000</color>
+    <color name="on_primary_dark">#1a2600</color>
+    <color name="on_primary_container_dark">#d4f59e</color>
+
+    <!-- Secondary Blue - Dark Theme -->
+    <color name="secondary_dark_theme">#b4c5ff</color>
+    <color name="secondary_container_dark">#003087</color>
+    <color name="on_secondary_dark">#002766</color>
+    <color name="on_secondary_container_dark">#dce4ff</color>
+
+    <!-- Tertiary Gold - Dark Theme -->
+    <color name="tertiary_dark">#E8C862</color>
+    <color name="tertiary_container_dark">#5C4700</color>
+    <color name="on_tertiary_dark">#3D2E00</color>
+
+    <!-- Surface Colors - Dark Theme -->
+    <color name="surface_dark">#121212</color>
+    <color name="surface_variant_dark">#1E1E1E</color>
+    <color name="surface_container_dark">#1A1A1A</color>
+    <color name="on_surface_dark">#E6E1E5</color>
+    <color name="on_surface_variant_dark">#C4C7C5</color>
+    <color name="background_dark">#0F0F0F</color>
+    <color name="on_background_dark">#E6E1E5</color>
+
+    <!-- Text Colors - Dark Theme -->
+    <color name="text_primary_dark">#E6E1E5</color>
+    <color name="text_secondary_dark">#B3B3B3</color>
+    <color name="text_tertiary_dark">#8A8A8A</color>
+
+    <!-- Error Colors - Dark Theme -->
+    <color name="error_dark">#FFB4AB</color>
+    <color name="error_container_dark">#93000A</color>
+    <color name="on_error_dark">#690005</color>
+    <color name="on_error_container_dark">#FFDAD6</color>
+
+    <!-- Outline Colors - Dark Theme -->
+    <color name="outline_dark">#8A8A8A</color>
+    <color name="outline_variant_dark">#49454F</color>
+
+    <!-- Card and Container - Dark Theme -->
+    <color name="card_background_dark">#1E1E1E</color>
+    <color name="divider_dark">#383838</color>
+
+    <!-- Bottom Navigation - Dark Theme -->
+    <color name="bottom_nav_background_dark">#1E1E1E</color>
+</resources>
